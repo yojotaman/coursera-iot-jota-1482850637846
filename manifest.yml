@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 1024M
+  instances: 1
+  domain: mybluemix.net
+  name: coursera-iot-jota
+  host: coursera-iot-jota
+  disk_quota: 1024M
+  services:
+  - coursera-iot-jota-cloudantNoSQLDB
+  - coursera-iot-jota-iotf-service
